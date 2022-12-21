@@ -13,6 +13,7 @@ public class AbsVsRelativePath {
 	//Relative file path is a path from the place where code is running to your specific file
 	File myNotesRelativePath = new File("src/day50/notes.txt");
 	System.out.println("file exists: " + myNotesRelativePath.exists());
-	System.out.println(myNotesRelativePath.getAbsolutePath());	
+	System.out.println(myNotesRelativePath.getAbsolutePath());
+		System.out.println(myNotesRelativePath.getAbsolutePath());
 	}
 }
